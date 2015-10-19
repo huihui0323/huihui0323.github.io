@@ -65,6 +65,8 @@ h2{
 p{
 	font-family: 'Marcellus', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 	color:#cc3a38;
+	padding: 50px;
+	border: solid 2px;
 }
 #pgreen{
 	color: green;
@@ -77,4 +79,16 @@ p{
 }
 #pred{
 	color: red;
+}
+.direction{
+	padding: 20px;
+	padding-bottom: 50px;
+	padding-left: 70px;
+	background-color: #A2CBCB;
+	border-style: dashed;
+	border-color: #FEFDFA;
+	border-radius: 15px;
+	background-image: url(../images/star-shape3.PNG);
+	background-repeat: no-repeat;
+    background-position: top left;
 }
