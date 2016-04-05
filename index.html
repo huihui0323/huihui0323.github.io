@@ -1,64 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
+
 <head>
-	<meta charset="UTF-8">
-	<title>CHING-HUI</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="timy" content="width=device-width, initial-scale=1">
+    <title>Timy home</title>
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="Resources/css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="Resources/css/mdb.css">
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="Resources/font-awesome-4.5.0/css/font-awesome.min.css">
+    <!-- Custom Style-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/styles1.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="script.js"></script>
-    <script src="scripts1.js"></script>
-       
 </head>
+
 <body>
-<div id="logo">
-		<img src="logo.png" alt="">        
-	</div>
-    <div id="cssmenu">
-    
-<ul>
-   <li><a href="#"><span class="fa fa-smile-o">&nbsp&nbspWelcome</span></a></li>
-   <li class="active has-sub"><a href="#"><span class="fa fa-book">&nbsp&nbspPortfolio</span></a>
-      <ul>
-         <li class="has-sub"><a href="#"><span>Portfolio 1</span></a>
-            <ul>
-               <li><a href="Portfolio/journal.html"><span>Journal</span></a></li>
-               <li class="last"><a href="Portfolio/table.html"><span>Table</span></a></li>
-               <li class="last"><a href="Portfolio/lounge/lounge.html"><span>Lounge</span></a></li>
-               <li class="last"><a href="Portfolio/抽獎_begin/index.html"><span> Lottery</span></a></li>
-            </ul>
-         </li>
-         <li class="has-sub"><a href="#"><span>Portfolio 2</span></a>
-            <ul>
-               <li><a href="Portfolio/English resume.html"><span>English resume</span></a></li>
-               <li class="last"><a href="Portfolio/pikachu_begin/position for students.html"><span>Pikachu</span></a></li>
-               <li class="last"><a href="Portfolio/CSS Float exercise/Kogepan.html"><span>Kogepan</span></a></li>
-               <li class="last"><a href="Portfolio/RWD exercise/Rila.html"><span>Rila</span></a></li>
-            </ul>
-         </li>
-      </ul>
-   </li>
-   <li><a href="#"><span class="fa fa-cog">&nbsp&nbspAbout</span></a></li>
-   <li class="last"><a href="#"><span class="fa fa-envelope-o">&nbsp&nbspContact me</span></a></li>
-</ul>
-
-<div class="circle1">   
-  </div>
-
-</div>
-    
-	<canvas id="mycanvas">
-	<div id="nocanvas">請支援 canvas 的瀏覽器。</div>
-	</canvas>
-  
-
-	<div id="copyright">
-		Chihlee University of Technology. 
-	</div>
-  
-
-	
+    <!-- Navigation -->
+    <nav class="navbar z-depth-2 info-color">
+        <div class="container ">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand waves-effect waves-light " href="#">Timy Home</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="My resume/My resume.html" class="waves-effect waves-light">My resume <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li><a href="Portfolio/p1.html" class="waves-effect waves-light">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li><a href="Who is Timy/Who is Timy.html" class="waves-effect waves-light">Who is Timy <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>MMM</h1>
+                <h2>Nice to meet you</h2>
+            </div>
+        </div>
+    </header>
+    <!-- Page Content -->
+    <div class="container hidden-xs">
+        <div class="row">
+            <hr class="featurette-divider">
+            <!-- First Featurette -->
+            <div class="featurette" id="about">
+                <div class="col-md-6">
+                    <a href="My resume/My resume.html"><h2 class="featurette-heading">My resume</h2></a>
+                    <p class="lead">Some things just look better in motion and in the highly competitive world of fashion, finding an edge over the competition is crucial. When it comes to clothes, hair, make-up and jewellery nothing compares to seeing moving images. So why not give your audience what they prefer?</p>
+                </div>
+                <div class="col-md-5">
+                    <a href="My resume/My resume.html"><img class="featurette-image img-circle img-responsive pull-right hoverable" src="img/m1.svg"></a>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <!-- Second Featurette -->
+            <div class="featurette" id="about">
+                <div class="col-md-5">
+                    <a href="Portfolio/p1.html"><img class="featurette-image img-circle img-responsive pull-right hoverable" src="img/m3.svg"></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="Portfolio/p1.html"><h2 class="featurette-heading">Portfolio</h2></a>
+                    <p class="lead">Google designed a Material Design to make a web more beautiful. Twitter created a Bootstrap to support you in faster and easier development of responsive websites. Material Design for Bootstrap contains both!</p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <!-- Third Featurette -->
+            <div class="featurette" id="about">
+                <div class="col-md-6">
+                    <a href="Who is Timy/Who is Timy.html"><h2 class="featurette-heading">Who is Timy</h2></a>
+                    <p class="lead">Did you know that a strong brand is absolutely essential for generating sales and growth on Social Media? You may not have given a lot of importance to your brand identity yet, but you surely have one. Let us take care of your branding and visibility both in online and offline world.</p>
+                </div>
+                <div class="col-md-5">
+                    <a href="Who is Timy/Who is Timy.html"><img class="img-circle img-responsive pull-right hoverable" src="img/m2.svg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    <div class="container page-content visible-xs">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="img/m1_1.svg" alt="Fun景點圖片">
+                        <span class="card-title">My resume</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Some things just look better in motion and in the highly competitive world of fashion, finding an edge over the competition...</p>
+                    </div>
+                    <div class="card-action text-right">
+                        <a href="My resume/My resume.html">
+                            <button type="button" class="btn btn-info waves-effect waves-light">Read more</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="img/m3_1.svg" alt="Go行程圖片">
+                        <span class="card-title">Portfolio</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Did you know that a strong brand is absolutely essential for generating sales and growth on Social Media? You may...</p>
+                    </div>
+                    <div class="card-action text-right">
+                        <a href="Portfolio/p1.html">
+                            <button type="button" class="btn btn-info waves-effect waves-light">Read more</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="img/m2_1.svg" alt="行程規劃圖片">
+                        <span class="card-title">Who is Timy</span>
+                    </div>
+                    <div class="card-content ">
+                        <p>Photography is an art of observation. It’s about finding something interesting an ordinary place… I’ve found it has little to do with ...</p>
+                    </div>
+                    <div class="card-action text-right">
+                        <a href="Who is Timy/Who is Timy.html">
+                            <button type="button" class="btn btn-info waves-effect waves-light">Read more</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer center-on-small-only">
+        <div class="social-section text-center">
+            <a href="https://www.facebook.com/profile.php?id=100000502090845" class="btn-floating btn-large fb-bg waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+            <a href="https://www.instagram.com/huhu_0323/" class="btn-floating btn-large ins-bg waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+            <a class="btn-floating btn-large yt-bg waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+        </div>
+        <div class="footer-copyright text-center rgba-black-light">
+            <div class="container-fluid">
+                © 2016 Copyright: <a href="#"> Timy </a>
+            </div>
+        </div>
+    </footer>
+    <!-- Script Section -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="Resources/js/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="Resources/js/bootstrap.min.js"></script>
+    <!-- Material Design Bootstrap -->
+    <script type="text/javascript" src="Resources/js/mdb.js"></script>
 </body>
 
 </html>
